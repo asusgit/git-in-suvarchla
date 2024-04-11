@@ -1,0 +1,55 @@
+form{
+    height: 590px;
+    width:  30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(192, 149, 241, 0.77);
+    transition: 1s;
+    
+    }
+    form:hover{
+        background-color:#ace5db;
+        
+    }
+center{
+    background-color: #ff00b7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,116,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  .input{
+    width:50%;
+    padding: 3px;
+    
+  }
